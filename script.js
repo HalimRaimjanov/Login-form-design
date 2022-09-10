@@ -23,10 +23,10 @@ let changeForm = (e) => {
     bContainer.classList.toggle('is-z200')
 }
 let mainF = (e) => {
-    for (var i=0; i<allButtons.length; i++)
-    allButtons[i].addEventListener('click', getButtons)
-    for (var i=0; i<switchBtn.length; i++)
-    switchBtn[i].addEventListener('click', changeForm)
+    for (var i = 0; i < allButtons.length; i++)
+        allButtons[i].addEventListener('click', getButtons)
+    for (var i = 0; i < switchBtn.length; i++)
+        switchBtn[i].addEventListener('click', changeForm)
 }
 
 window.addEventListener('load', mainF)
